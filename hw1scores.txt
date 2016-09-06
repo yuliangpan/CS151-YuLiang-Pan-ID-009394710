@@ -1,0 +1,13 @@
+Student: pan_yuliang
+Git submission (max 4): 0
+Git repo private (max 4): 0
+
+You must make your repo into a private repo! Either sign
+up for a student account with Github or use BitBucket and
+send me the new URL.
+
+Submitted into (root)/hw1/* (max 4): 0
+Plain text aboutme.txt (max 4): 0
+Strings passes (max 8): 0
+Encodings passes (max 8): 0 
+

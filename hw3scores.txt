@@ -1,0 +1,246 @@
+Student: pan_yuliang
+At least 3 git commits (max. 5 points): 0
+DayWithTime compiles, passes tests (max. 10 points): 0
+MutableDay compiles, passes tests (max. 10 points): 0
+
+Please see me during office hours next week (TuTh 12:45).
+
+ 
+DayWithTimeTest.java
+DayWithTimeTest.java:10: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 12, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:10: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 12, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:11: error: cannot find symbol
+      DayWithTime d2 = d.plusDays(30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:17: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:17: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:18: error: cannot find symbol
+      DayWithTime d2 = d.plusMinutes(720);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:27: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:27: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:28: error: cannot find symbol
+      DayWithTime d2 = d.plusMinutes(-720);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:37: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:37: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:38: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 2, 7, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:38: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 2, 7, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:45: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:45: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:46: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:46: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:48: error: cannot find symbol
+	   d2 = new DayWithTime(2017, 9, 2, 07, 29);
+	            ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:56: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:56: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:57: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:57: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:59: error: cannot find symbol
+	   d2 = new DayWithTime(2017, 9, 2, 07, 29);
+	            ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:67: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 30, 19, 30).plusMinutes(721);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:67: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 30, 19, 30).plusMinutes(721);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+25 errors
+JUnit version 4.11
+Could not find class: DayWithTimeTest
+
+Time: 0.003
+
+OK (0 tests)
+
+MutableDayTest.java
+MutableDayTest.java:10: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:10: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:19: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:19: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:20: error: cannot find symbol
+		MutableDay d2 = new MutableDay(2017, 9, 1);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:20: error: cannot find symbol
+		MutableDay d2 = new MutableDay(2017, 9, 1);
+		                    ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:29: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:29: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:39: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:39: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:48: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:48: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:55: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:55: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:64: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:64: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:71: error: cannot find symbol
+		new MutableDay(2000, 2, 30);
+		    ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+17 errors
+JUnit version 4.11
+Could not find class: MutableDayTest
+
+Time: 0.001
+
+OK (0 tests)
+
+ 
+commit 25abd9878b201dde6cd1b66e5010b359ef0d5474
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:20 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... a803b2f... A	hw2ascores.txt
+:000000 100644 0000000... bff68fb... A	hw2bscores.txt
+ 

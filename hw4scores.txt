@@ -1,0 +1,205 @@
+Student: pan_yuliang
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 0
+All methods have javadoc (max. 5 points): 0
+ 
+You need to submit your files inside a hw4 directory. Unzip and push again, then email me.
+
+Files to process must be specified, found 0.
+NumberSequenceTest2.java
+NumberSequenceTest2.java:8: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 4, 9, 16);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest2
+NumberSequenceTest2.java:8: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 4, 9, 16);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest2
+NumberSequenceTest2.java:14: error: cannot find symbol
+      NumberSequence oddSquares2 = NumberSequence.of(0, 1, 4, 9).filter(n -> n % 2 != 0);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest2
+NumberSequenceTest2.java:14: error: cannot find symbol
+      NumberSequence oddSquares2 = NumberSequence.of(0, 1, 4, 9).filter(n -> n % 2 != 0);
+                                   ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest2
+4 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest2
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: cannot find symbol
+      NumberSequence randomSequence = () -> gen.nextLong();
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest3
+NumberSequenceTest3.java:10: error: lambda expression not expected here
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+NumberSequenceTest3.java:12: error: cannot find symbol
+      NumberSequence positiveRandoms = randomSequence.filter(n -> n > 0);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest3
+3 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.001
+
+OK (0 tests)
+
+NumberSequenceTest.java
+NumberSequenceTest.java:8: error: cannot find symbol
+      NumberSequence sequence = new SquareSequence();
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:8: error: cannot find symbol
+      NumberSequence sequence = new SquareSequence();
+                                    ^
+  symbol:   class SquareSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:23: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:23: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:33: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:33: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:35: error: cannot find symbol
+      sequence = new SquareSequence();
+                     ^
+  symbol:   class SquareSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:41: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:41: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:43: error: cannot find symbol
+      sequence = NumberSequence.of(1, 7, 2, 9);
+                 ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:45: error: cannot find symbol
+      sequence = NumberSequence.of(1, 7, 2, 9);
+                 ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:51: error: cannot find symbol
+      NumberSequence oddSquares = new SquareSequence().filter(n -> n % 2 != 0);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:51: error: cannot find symbol
+      NumberSequence oddSquares = new SquareSequence().filter(n -> n % 2 != 0);
+                                      ^
+  symbol:   class SquareSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:60: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.iterate(1, n -> 2 * n);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:60: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.iterate(1, n -> 2 * n);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:69: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.random(42);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:69: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.random(42);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+17 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest
+
+Time: 0.002
+
+OK (0 tests)
+
+ 
+commit 3faddbd0c8ab3f25795fed07f8f5c6f9fbbc8894
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:26:28 2016 -0700
+
+    Delete SquareSequence.java
+
+:100644 000000 cd0a4cf... 0000000... D	SquareSequence.java
+
+commit 064533d57d24dc747623e8e999c73563d3b6087e
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:26:21 2016 -0700
+
+    Delete NumberSequence.java
+
+:100644 000000 f20bfea... 0000000... D	NumberSequence.java
+
+commit d613f7d513f555d03e04053d2b0824cc7e1e5434
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:26:05 2016 -0700
+
+    Delete HW4!!!!
+
+:100644 000000 183c553... 0000000... D	HW4!!!!
+
+commit eb601f1ecf980cd48deceacf94e5d2ddd40aa918
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:25:31 2016 -0700
+
+    Add files via upload
+
+:000000 100644 0000000... 385d9c5... A	HW4.zip
+
+commit 9f41e46a08e58750bf3707a154327ec6c59b7870
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:23:15 2016 -0700
+
+    Add files via upload
+
+:000000 100644 0000000... f20bfea... A	NumberSequence.java
+:000000 100644 0000000... cd0a4cf... A	SquareSequence.java
+
+commit b26aaaca1f3c81c71d0898239d320e7d5b18f0e7
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:15:14 2016 -0700
+
+    Create HW4!!!!
+    
+    SJSU Yuliang Pan CS151 HW4
+
+:000000 100644 0000000... 183c553... A	HW4!!!!
+ 

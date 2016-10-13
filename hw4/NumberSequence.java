@@ -1,3 +1,5 @@
+
+//this is the fixed version
 import java.util.function.Function;
 
 public interface NumberSequence {

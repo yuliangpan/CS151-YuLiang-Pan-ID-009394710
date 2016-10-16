@@ -1,0 +1,260 @@
+Student: pan_yuliang
+Running java AnimationTester 600 yields two dials (max. 2 points):0
+Small dial horizontally centered in large dial (max. 2 points):0
+Large, medium, small tick marks on outer dial (max. 2 points):0
+Large, medium ticks on inner dial (max. 2 points):0
+Numbers 0...55 placed next to large ticks (max. 2 points):0
+Outer dial numbers in larger font than inner dial (max. 2 points):0
+Large hand red, small hand purple (max. 2 points):0
+When clicking Top, clock starts running (max. 2 points):0
+Arrow triangles rotate correctly (max. 2 points):0
+When clicking Second, clock stops running (max. 2 points):0
+When clicking Second again, clock jumps to catch up (max. 2 points):0
+When clicking Top, clock stops, and when clicking Second, resets (max. 2 points):0
+When running java AnimationTester 100, everything properly scaled (max. 2 points):0
+At least 3 git commits (max. 2 points):2
+checkstyle reports no errors (max. 2 points):0
+
+Files to process must be specified, found 0.
+javac: file not found: AnimationTester.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+commit 48f2f4e9de30d367bb049ad888fcbab814f02784
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 19:06:45 2016 -0700
+
+    Create 123133
+
+:000000 100644 0000000... 190a180... A	123133
+
+commit 32886a33019e88baf42507ef1321a7c80f40e5ff
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 18:45:56 2016 -0700
+
+    Create test
+
+:000000 100644 0000000... bf7e899... A	test
+
+commit 8966e531a127d7ad46959e28fcb455826102f8b0
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 16:33:38 2016 -0700
+
+    Delete empty
+
+:100644 000000 e62415c... 0000000... D	new-folder/empty
+
+commit b1a479105a0c2cbae1cb5787db1c27376f2810b9
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 16:05:04 2016 -0700
+
+    Create empty
+
+    qwe
+
+:000000 100644 0000000... e62415c... A	new-folder/empty
+
+commit 279ba053efe499eb7cfbc5e853773b7d6a54f852
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:35:09 2016 -0700
+
+    Delete org.eclipse.jdt.core.prefs
+
+:100644 000000 8000cd6... 0000000... D	.settings/org.eclipse.jdt.core.prefs
+
+commit f2898e5b16ab63beb47bf87ad3aef38d1baea142
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:34:54 2016 -0700
+
+    Delete Hello.java
+
+:100644 000000 24d47d1... 0000000... D	src/Hello.java
+
+commit 6e02069838412c2592dc948af9f483082822f1d0
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:34:47 2016 -0700
+
+    Delete .DS_Store
+
+:100644 000000 be8d683... 0000000... D	src/.DS_Store
+
+commit 81b1c5005aab941f64ad20a6df56b34902a33f21
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:34:35 2016 -0700
+
+    Delete .DS_Store
+
+:100644 000000 f3fd45d... 0000000... D	.DS_Store
+
+commit 8b02a3b2b0b0258166188652cdc7f05d76226025
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:34:29 2016 -0700
+
+    Delete .classpath
+
+:100644 000000 18d70f0... 0000000... D	.classpath
+
+commit bdd668b32ad61ae29c47ba41a57cd2376171c8f2
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:34:20 2016 -0700
+
+    Delete .gitignore
+
+:100644 000000 ae3c172... 0000000... D	.gitignore
+
+commit 1ed02b128cb21190179feae77f82ad92f9517132
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:34:12 2016 -0700
+
+    Delete .project
+
+:100644 000000 04d878a... 0000000... D	.project
+
+commit bbaca17bcf3b5046138facdfa8a4f509780981ae
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:32:05 2016 -0700
+
+    Delete HW4.zip
+
+:100644 000000 385d9c5... 0000000... D	HW4.zip
+
+commit 98c76adf80a060a67d298e3d31ee9b14c948de45
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:29:56 2016 -0700
+
+    Delete hw4
+
+:100644 000000 8b13789... 0000000... D	HW4/hw4
+
+commit f81ec9f47e71e2c457282ede03f133d3a01ad21c
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:29:46 2016 -0700
+
+    Add files via upload
+
+:000000 100644 0000000... f20bfea... A	HW4/NumberSequence.java
+:000000 100644 0000000... cd0a4cf... A	HW4/SquareSequence.java
+
+commit fcfdac729afab378f0fa15223bd86e298b276472
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:29:32 2016 -0700
+
+    Create hw4
+
+:000000 100644 0000000... 8b13789... A	HW4/hw4
+
+commit af63a5ef11605e7a36048f16633c0be03efe0c8e
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:29:18 2016 -0700
+
+    Delete SquareSequence
+
+:100644 000000 ebdf14f... 0000000... D	HW4/SquareSequence
+
+commit 2246ca6a2d8a319658e8b2704f67b6ef543a42bf
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 13:29:09 2016 -0700
+
+    Delete NumberSequence
+
+:100644 000000 883a76a... 0000000... D	HW4/NumberSequence
+
+commit f386203235ed38567a2b910827e7a5ee4828b6fd
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:48:24 2016 -0700
+
+    Create SquareSequence
+
+:000000 100644 0000000... ebdf14f... A	HW4/SquareSequence
+
+commit 9502525aca4dcc90bcc360705f9f6c0f579dfab1
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:48:00 2016 -0700
+
+    Delete hw4
+
+:100644 000000 8b13789... 0000000... D	HW4/hw4
+
+commit 7bd1fbc58189d3e06a0450fe4404aa5110c0c0f4
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:47:52 2016 -0700
+
+    Create NumberSequence
+
+:000000 100644 0000000... 883a76a... A	HW4/NumberSequence
+
+commit be05e9d782d492c22512c208e3ab169cf40f9cb2
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:45:55 2016 -0700
+
+    Delete SquareSequence.java
+
+:100644 000000 cd0a4cf... 0000000... D	SquareSequence.java
+
+commit f8d6149880771b4fc1952828419be16cf23628e8
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:45:47 2016 -0700
+
+    Delete NumberSequence.java
+
+:100644 000000 f20bfea... 0000000... D	NumberSequence.java
+
+commit 8c99873b3f866d44bb8f8da9a75848190290e8a1
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:45:34 2016 -0700
+
+    Add files via upload
+
+:000000 100644 0000000... f20bfea... A	NumberSequence.java
+:000000 100644 0000000... cd0a4cf... A	SquareSequence.java
+
+commit f5be7ace640cef258bfe533d99c20eb07c9aee59
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:43:40 2016 -0700
+
+    Create hw4
+
+:000000 100644 0000000... 8b13789... A	HW4/hw4
+
+commit f164223ab799fe7bcb37787717adbeeddd63ebf3
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:43:28 2016 -0700
+
+    Delete HW4
+
+:100644 000000 8b13789... 0000000... D	HW4
+
+commit 636a30cbdb0365593611a05751b0349a7782f39e
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:43:15 2016 -0700
+
+    Create HW4
+
+:000000 100644 0000000... 8b13789... A	HW4
+
+commit 9accda53a2483aa2aa94e9a09bac4807648bf840
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 12:42:48 2016 -0700
+
+    Delete empty
+
+:100644 000000 bf7e899... 0000000... D	HW4/empty
+
+commit ce22f1eb8fde7246ce9e0ac45ed2eac57c3a96e2
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Oct 4 11:06:52 2016 -0700
+
+    Create empty
+
+    asd
+
+:000000 100644 0000000... bf7e899... A	HW4/empty
+
+commit 0f9507f3d4c3ab80088573c5e504e775caf89b34
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Sun Oct 2 16:10:00 2016 -0700
+
+    Homework 4 scores
+
+:000000 100644 0000000... 13a038a... A	hw4scores.txt
+

@@ -1,0 +1,130 @@
+Student: pan_yuliang
+IconTester compiles and runs (max. 2 points): 2
+Box around dog (max. 5 points): 5
+Thick box around thin box around text (max. 5 points): 5 
+ShapeTester compiles and runs (max. 2 points): 2
+All four shapes show (max. 5 points): 5 
+ShapeTester2 compiles and runs without errors (showing nothing) (max 3 points): 3
+At least 3 git commits (max. 2 points): 2 
+checkstyle reports no errors (max. 5 points): 2 
+ 
+Starting audit...
+[ERROR] /tmp/hw6/pan_yuliang/BoxedIcon.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedIcon.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedIcon.java:12:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedIcon.java:17:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedIcon.java:22:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:24:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:29:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:34:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:44:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:54:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:64:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:69:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:74:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShape.java:79:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShapePathIterator.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShapePathIterator.java:8:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShapePathIterator.java:17:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShapePathIterator.java:26:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShapePathIterator.java:81:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShapePathIterator.java:90:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShapePathIterator.java:95:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/BoxedShapePathIterator.java:100:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CarIcon.java:12:7: Unused @param tag for 'width'. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CarIcon.java:14:23: Expected @param tag for 'aWidth'. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CarIcon.java:19:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CarIcon.java:24:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CarIcon.java:29:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeIcon.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeIcon.java:7:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeIcon.java:14:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeIcon.java:22:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeIcon.java:30:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:27:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:36:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:45:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:54:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:63:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:76:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:89:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:100:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:111:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShape.java:120:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShapePathIterator.java:27:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShapePathIterator.java:33:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShapePathIterator.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShapePathIterator.java:46:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/CompositeShapePathIterator.java:51:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/HouseShapeMaker.java:13:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/HouseShapeMaker.java:34:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/MarsIcon.java:19:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/MarsIcon.java:24:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/MarsIcon.java:29:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/ShapeIcon.java:24:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/ShapeIcon.java:29:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/ShapeIcon.java:31:1: Line contains a tab character. [FileTabCharacter]
+[ERROR] /tmp/hw6/pan_yuliang/ShapeIcon.java:34:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/ShapeIcon.java:36:1: Line contains a tab character. [FileTabCharacter]
+[ERROR] /tmp/hw6/pan_yuliang/ShiftedIcon.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw6/pan_yuliang/ShiftedIcon.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/ShiftedIcon.java:13:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/ShiftedIcon.java:18:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/ShiftedIcon.java:23:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/TextShapeMaker.java:12:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/pan_yuliang/TextShapeMaker.java:22:4: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 65 errors.
+javac IconTester.java
+javac ShapeTester2.java ShapeTester.java
+ 
+commit a84ff649a16ab1a292699c9a29e0bd9cf9486426
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Sun Oct 16 18:26:02 2016 -0700
+
+    Exam 1 scores
+
+:000000 100644 0000000... a804269... A	exam1scores.txt
+
+commit 22745759db821d247c6ae162bd13897a2e79639d
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Sun Oct 16 08:19:16 2016 -0700
+
+    Homework 5 scores
+
+:000000 100644 0000000... d8e2fd9... A	hw5scores.txt
+
+commit 525c9fb5539b1fef72bc35e3f8e612ab8414012c
+Author: yuliang <yuliang.pan@sjsu.edu>
+Date:   Thu Oct 13 09:56:32 2016 -0700
+
+    Added NumberSequence.java
+
+:100755 100755 f20bfea... f46cca0... M	hw4/NumberSequence.java
+
+commit 708c77cbaaf96a78c3d84fbea3ac49806552001b
+Author: yuliang <yuliang.pan@sjsu.edu>
+Date:   Thu Oct 13 09:51:48 2016 -0700
+
+    hw4
+
+:000000 100755 0000000... f20bfea... A	hw4/NumberSequence.java
+:000000 100755 0000000... cd0a4cf... A	hw4/SquareSequence.java
+
+commit 3b42b18fa6981630605ac7bbe31bd919052c8571
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Thu Oct 13 09:46:53 2016 -0700
+
+    Delete SquareSequence.java
+
+:100644 000000 cd0a4cf... 0000000... D	HW4/SquareSequence.java
+
+commit aed7d25ef30ba5e6c8ba9c81cd15c7cfbaeff469
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Thu Oct 13 09:46:45 2016 -0700
+
+    Delete NumberSequence.java
+
+:100644 000000 f20bfea... 0000000... D	HW4/NumberSequence.java
+ 

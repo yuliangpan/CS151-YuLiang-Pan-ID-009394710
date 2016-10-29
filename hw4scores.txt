@@ -1,157 +1,42 @@
 Student: pan_yuliang
 At least 3 git commits (max. 5 points): 5
-10 test cases pass (2 per test case, max. 20 points): 0
+10 test cases pass (2 per test case, max. 20 points): 16
+
+After resubmission
+
 All methods have javadoc (max. 5 points): 0
+
+[ERROR] /tmp/hw4/NumberSequence.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/NumberSequence.java:7:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequence.java:10:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequence.java:12: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/NumberSequence.java:29:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequence.java:41:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequence.java:53:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequence.java:67: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/NumberSequence.java:116:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequence.java:121:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequence.java:123: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/NumberSequence.java:137:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest2.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/NumberSequenceTest2.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest2.java:12:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest3.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/NumberSequenceTest3.java:7:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/SquareSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/SquareSequence.java:7:4: Missing a Javadoc comment. [JavadocMethod]
+
  
 You need to submit your files inside a hw4 directory. Unzip and push again, then email me.
 
-Files to process must be specified, found 0.
-NumberSequenceTest2.java
-NumberSequenceTest2.java:8: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.of(1, 4, 9, 16);
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest2
-NumberSequenceTest2.java:8: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.of(1, 4, 9, 16);
-                                ^
-  symbol:   variable NumberSequence
-  location: class NumberSequenceTest2
-NumberSequenceTest2.java:14: error: cannot find symbol
-      NumberSequence oddSquares2 = NumberSequence.of(0, 1, 4, 9).filter(n -> n % 2 != 0);
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest2
-NumberSequenceTest2.java:14: error: cannot find symbol
-      NumberSequence oddSquares2 = NumberSequence.of(0, 1, 4, 9).filter(n -> n % 2 != 0);
-                                   ^
-  symbol:   variable NumberSequence
-  location: class NumberSequenceTest2
-4 errors
-JUnit version 4.11
-Could not find class: NumberSequenceTest2
-
-Time: 0.002
-
-OK (0 tests)
-
-NumberSequenceTest3.java
-NumberSequenceTest3.java:10: error: cannot find symbol
-      NumberSequence randomSequence = () -> gen.nextLong();
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest3
-NumberSequenceTest3.java:10: error: lambda expression not expected here
-      NumberSequence randomSequence = () -> gen.nextLong();
-                                      ^
-NumberSequenceTest3.java:12: error: cannot find symbol
-      NumberSequence positiveRandoms = randomSequence.filter(n -> n > 0);
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest3
-3 errors
-JUnit version 4.11
-Could not find class: NumberSequenceTest3
-
-Time: 0.001
-
-OK (0 tests)
-
-NumberSequenceTest.java
-NumberSequenceTest.java:8: error: cannot find symbol
-      NumberSequence sequence = new SquareSequence();
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:8: error: cannot find symbol
-      NumberSequence sequence = new SquareSequence();
-                                    ^
-  symbol:   class SquareSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:23: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:23: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
-                                ^
-  symbol:   variable NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:33: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:33: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
-                                ^
-  symbol:   variable NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:35: error: cannot find symbol
-      sequence = new SquareSequence();
-                     ^
-  symbol:   class SquareSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:41: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:41: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
-                                ^
-  symbol:   variable NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:43: error: cannot find symbol
-      sequence = NumberSequence.of(1, 7, 2, 9);
-                 ^
-  symbol:   variable NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:45: error: cannot find symbol
-      sequence = NumberSequence.of(1, 7, 2, 9);
-                 ^
-  symbol:   variable NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:51: error: cannot find symbol
-      NumberSequence oddSquares = new SquareSequence().filter(n -> n % 2 != 0);
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:51: error: cannot find symbol
-      NumberSequence oddSquares = new SquareSequence().filter(n -> n % 2 != 0);
-                                      ^
-  symbol:   class SquareSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:60: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.iterate(1, n -> 2 * n);
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:60: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.iterate(1, n -> 2 * n);
-                                ^
-  symbol:   variable NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:69: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.random(42);
-      ^
-  symbol:   class NumberSequence
-  location: class NumberSequenceTest
-NumberSequenceTest.java:69: error: cannot find symbol
-      NumberSequence sequence = NumberSequence.random(42);
-                                ^
-  symbol:   variable NumberSequence
-  location: class NumberSequenceTest
-17 errors
-JUnit version 4.11
-Could not find class: NumberSequenceTest
-
-Time: 0.002
-
-OK (0 tests)
-
- 
 commit 3faddbd0c8ab3f25795fed07f8f5c6f9fbbc8894
 Author: yuliangpan <yuliang.pan@sjsu.edu>
 Date:   Tue Sep 27 16:26:28 2016 -0700
